@@ -10,7 +10,7 @@ function Header({cartItems}) {
             <div className="col-12 col-md-3">
                 <div className="navbar-brand">
                     <Link to="/">
-                    <img width="150px" src="/images/logo1.png" alt="logo"/>
+                    <img width="150px" src="/logo1.png" alt="logo"/>
                     </Link>
                 </div>
             </div>

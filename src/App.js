@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Home from './Pages/Home';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import ProductDetails from './Pages/ProductDetails';
 import { useState } from 'react';
 import {ToastContainer} from 'react-toastify'
