@@ -10,7 +10,8 @@ function Header({cartItems}) {
             <div className="col-12 col-md-3">
                 <div className="navbar-brand">
                     <Link to="/">
-                    <img width="150px" src="/logo1.png" alt="logo"/>
+                    {/* <img width="150px" src="/logo1.png" alt="logo"/> */}
+                    <img width="150px" src={`${process.env.PUBLIC_URL}/images/logo1.png`} alt="Logo" />
                     </Link>
                 </div>
             </div>
